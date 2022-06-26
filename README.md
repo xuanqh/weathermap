@@ -83,6 +83,5 @@ Step3: Run Android Studio.
 Step4: On Android Studio then Click Open Android project then navigation to project folder to import the project.
 Step5: Run App
 
-Or to build and run the desktop application, run the following command
-###./gradlew run
+Or to build and run the desktop application, run the following command: ./gradlew run
 
