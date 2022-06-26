@@ -65,7 +65,7 @@ com.weathermap.features.main
  - app: Main application module.
  - nativelib: module to store the secret key or api key
 
-## Achievement
+## The Achievement
 - The application is a simple Android application which is written by Kotlin.
 - The application is able to retrieve the weather information from OpenWeatherMapsAPI.
 - The application is able to allow user to input the searching term.
@@ -84,5 +84,5 @@ Step4: On Android Studio then Click Open Android project then navigation to proj
 Step5: Run App
 
 Or to build and run the desktop application, run the following command
-./gradlew run
+###./gradlew run
 
