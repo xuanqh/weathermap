@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_padding">16dp</dimen>
+    <dimen name="padding_list_item">12dp</dimen>
+    <dimen name="line_margin_top">6dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_item_color"
+        android:padding="@dimen/padding_list_item">
+
+        <TextView
+            android:id="@+id/tvLabelDay"
+            style="?textLabelSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_date"
+            android:contentDescription="@string/label_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            style="?textContentSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_small"
+            app:layout_constraintStart_toEndOf="@id/tvLabelDay"
+            app:layout_constraintTop_toTopOf="@id/tvLabelDay"
+            tools:text="Tue, 10 Mar 2020" />
+
+        <TextView
+            android:id="@+id/tvLabelAT"
+            style="?textLabelSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/line_margin_top"
+            android:text="@string/label_average_temperature"
+            android:contentDescription="@string/label_average_temperature"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvLabelDay" />
+
+        <TextView
+            android:id="@+id/tvAT"
+            style="?textContentSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_small"
+            app:layout_constraintStart_toEndOf="@id/tvLabelAT"
+            app:layout_constraintTop_toTopOf="@id/tvLabelAT"
+            tools:text="20oC" />
+
+        <TextView
+            android:id="@+id/tvLabelPressure"
+            style="?textLabelSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/line_margin_top"
+            android:text="@string/label_pressure"
+            android:contentDescription="@string/label_pressure"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvLabelAT" />
+
+        <TextView
+            android:id="@+id/tvPressure"
+            style="?textContentSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_small"
+            app:layout_constraintStart_toEndOf="@id/tvLabelPressure"
+            app:layout_constraintTop_toTopOf="@id/tvLabelPressure"
+            tools:text="20oC" />
+
+        <TextView
+            android:id="@+id/tvLabelHumidity"
+            style="?textLabelSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/line_margin_top"
+            android:text="@string/label_humidity"
+            android:contentDescription="@string/label_humidity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvLabelPressure" />
+
+        <TextView
+            android:id="@+id/tvHumidity"
+            style="?textContentSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_small"
+            app:layout_constraintStart_toEndOf="@id/tvLabelHumidity"
+            app:layout_constraintTop_toTopOf="@id/tvLabelHumidity"
+            tools:text="72%" />
+
+        <TextView
+            android:id="@+id/tvLabelDescription"
+            style="?textLabelSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/line_margin_top"
+            android:text="@string/label_description"
+            android:contentDescription="@string/label_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvHumidity" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            style="?textContentSizeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_small"
+            app:layout_constraintStart_toEndOf="@id/tvLabelDescription"
+            app:layout_constraintTop_toTopOf="@id/tvLabelDescription"
+            tools:text="light rain" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

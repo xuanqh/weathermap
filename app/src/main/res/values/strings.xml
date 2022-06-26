@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherMap</string>
+    <string name="try_again">Try again</string>
+    <string name="close">Close</string>
+    <string name="get_weather">Get Weather</string>
+    <string name="data_not_found">Data are not found</string>
+    <string name="label_average_temperature">Average temperature:</string>
+    <string name="label_date">Date:</string>
+    <string name="label_pressure">Pressure:</string>
+    <string name="label_humidity">Humidity:</string>
+    <string name="label_description">Description:</string>
+    <string name="term_search_required">Term length must be from 3 characters or above.</string>
+    <string name="search_city">Search city</string>
+    <string name="clear_input">Clear input</string>
+    <string name="setting">Settings</string>
+    <string name="change_text_size">Change text size</string>
+    <string name="text_small">Text small</string>
+    <string name="text_medium">Text medium</string>
+    <string name="text_large">Text large</string>
+</resources>

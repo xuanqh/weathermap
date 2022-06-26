@@ -1,0 +1,3 @@
+rootProject.name = "WeatherMap"
+include ':app'
+include ':nativelib'
