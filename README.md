@@ -77,11 +77,11 @@ com.weathermap.features.main
 - The application is able to support the disability to read out the text using VoiceOver controls.
 
 ## Build and Installation
-Step1: Download and decompress the project source code.
-Step2: Download and install Android Studio.
-Step3: Run Android Studio.
-Step4: On Android Studio then Click Open Android project then navigation to project folder to import the project.
-Step5: Run App
+- Step1: Download and decompress the project source code.
+- Step2: Download and install Android Studio.
+- Step3: Run Android Studio.
+- Step4: On Android Studio then Click Open Android project then navigation to project folder to import the project.
+- Step5: Run App
 
 Or to build and run the desktop application, run the following command: ./gradlew run
 
